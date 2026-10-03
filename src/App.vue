@@ -56,9 +56,7 @@ onMounted(renderCode)
 <template>
   <main class="app-shell">
     <header>
-      <p class="eyebrow">QR code generator</p>
-      <h1>Your text, in every useful format.</h1>
-      <p class="intro">Type anything below to create instant, ready-to-use QR code exports.</p>
+      <h1>QR CODE</h1>
     </header>
     <section class="input-card" aria-labelledby="text-label">
       <div class="field-heading"><label id="text-label" for="text-input">Text to encode</label><span>{{ text.length }} characters</span></div>
