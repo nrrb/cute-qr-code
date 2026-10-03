@@ -1,5 +1,37 @@
-# Vue 3 + Vite
+# cute-qr-code
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A small Vue app for turning text into friendly, ready-to-use QR code exports.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Every visit starts with a randomly generated, family-friendly `.club` URL. Replace it with any text or URL and the QR code updates immediately on every keypress.
+
+## Outputs
+
+- Fixed-width QR text that can be selected or copied with one click
+- Black QR PNG on a transparent background
+- Black QR PNG on white
+- White QR PNG on a transparent background, with a dark-preview toggle
+
+Each PNG can be downloaded directly from its tile.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Open the local URL printed by Vite, usually `http://localhost:5173`.
+
+## Production build
+
+```bash
+npm run build
+```
+
+The compiled site is written to `dist/`.
+
+## Stack
+
+- Vue 3
+- Vite
+- [`qrcode`](https://www.npmjs.com/package/qrcode) for QR matrix and PNG generation
