@@ -3,7 +3,7 @@
 :root { font-family: 'DM Mono', monospace; color: #20221e; background: #f5f4ee; font-synthesis: none; }
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 320px; }
-button, textarea { font: inherit; }
+button, input, textarea { font: inherit; }
 button, a { cursor: pointer; }
 .app-shell { width: min(1180px, calc(100% - 40px)); margin: 0 auto; padding: 72px 0 96px; }
 header { margin-bottom: 42px; }
