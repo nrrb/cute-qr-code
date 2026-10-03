@@ -59,7 +59,7 @@ onMounted(renderCode)
 <template>
   <main class="app-shell">
     <header>
-      <h1>QR CODE</h1>
+      <h1 aria-label="QR CODE"><span aria-hidden="true">Q</span><span aria-hidden="true">R</span><span aria-hidden="true"></span><span aria-hidden="true">C</span><span aria-hidden="true">O</span><span aria-hidden="true">D</span><span aria-hidden="true">E</span></h1>
     </header>
     <section class="input-card" aria-labelledby="text-label">
       <div class="field-heading"><label id="text-label" for="text-input">Text to encode</label><span>{{ text.length }} characters</span></div>
