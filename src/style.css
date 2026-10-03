@@ -13,7 +13,7 @@ h1 { margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-size: clam
 .field-heading, .card-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
 .field-heading label { font-weight: 700; }
 .field-heading span { color: #777970; font-size: 13px; }
-#text-input { width: 100%; min-height: 92px; resize: vertical; margin-top: 12px; padding: 13px 14px; color: #20221e; background: #f7f6f0; border: 1px solid #c6c3b9; border-radius: 2px; outline-color: #d75e38; line-height: 1.45; }
+#text-input { width: 100%; height: 50px; margin-top: 12px; padding: 0 14px; color: #20221e; background: #f7f6f0; border: 1px solid #c6c3b9; border-radius: 2px; outline-color: #d75e38; line-height: 1.45; }
 .outputs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 440px; gap: 22px; }
 .output-card { display: flex; min-width: 0; padding: 22px; background: #fffefa; border: 1px solid #dcd9ce; flex-direction: column; }
 h2 { margin: 0; font-size: 19px; letter-spacing: -.02em; }
