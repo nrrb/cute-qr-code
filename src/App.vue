@@ -64,7 +64,6 @@ onMounted(renderCode)
     <section class="input-card" aria-labelledby="text-label">
       <div class="field-heading"><label id="text-label" for="text-input">Text to encode</label><span>{{ text.length }} characters</span></div>
       <textarea id="text-input" v-model="text" rows="3" placeholder="Enter text, a URL, or anything else" @keyup="renderCode" />
-      <p class="input-note">Updates immediately with every keypress.</p>
     </section>
     <section class="outputs" aria-label="QR code outputs">
       <article class="output-card text-card">
