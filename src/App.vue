@@ -2,7 +2,10 @@
 import { computed, onMounted, ref } from 'vue'
 import QRCode from 'qrcode'
 
-const text = ref('https://www.bouncyotter.club/')
+const adjectives = ['bouncy', 'cheerful', 'curious', 'dapper', 'fuzzy', 'jolly', 'merry', 'peppy', 'sparkly', 'sunny', 'wobbly']
+const animals = ['alpaca', 'badger', 'beaver', 'capybara', 'dolphin', 'hedgehog', 'lemur', 'otter', 'panda', 'penguin', 'puffin', 'raccoon']
+const pick = (items) => items[Math.floor(Math.random() * items.length)]
+const text = ref(`https://www.${pick(adjectives)}${pick(animals)}.club/`)
 const qrText = ref('')
 const blackTransparent = ref('')
 const blackWhite = ref('')
