@@ -2,7 +2,7 @@
 import { computed, onMounted, ref } from 'vue'
 import QRCode from 'qrcode'
 
-const text = ref('Hello, world!')
+const text = ref('https://www.bouncyotter.club/')
 const qrText = ref('')
 const blackTransparent = ref('')
 const blackWhite = ref('')
