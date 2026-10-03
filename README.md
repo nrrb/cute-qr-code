@@ -2,6 +2,8 @@
 
 A small Vue app for turning text into friendly, ready-to-use QR code exports.
 
+Live site: [cute-qr-code.surge.sh](https://cute-qr-code.surge.sh/)
+
 Every visit starts with a randomly generated, family-friendly `.club` URL. Replace it with any text or URL and the QR code updates immediately on every keypress.
 
 ## Outputs
